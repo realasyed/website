@@ -11,7 +11,7 @@ const Layout: React.FC = ({ children }) => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="/">About</a>
             </li>
             {/* Add more navigation links here */}
           </ul>
