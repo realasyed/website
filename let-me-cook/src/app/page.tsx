@@ -1,25 +1,24 @@
 import React from "react";
+import Link from "next/link";
 
-const Layout: React.FC = ({ children }) => {
+const Page: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
       <header className="bg-blue-500 p-4 flex justify-between items-center">
-        <h1 className="text-white text-xl font-bold">Armaan's Cool Website</h1>
+        <h1 className="text-white text-xl font-bold">
+          Armaan's Cool Placeholder
+        </h1>
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <a href="/">Home</a>
+              <Link href="phil/philosophy">Philosophy</Link>
             </li>
-            <li>
-              <a href="/">About</a>
-            </li>
-            {/* Add more navigation links here */}
           </ul>
         </nav>
       </header>
-      <main className="p-4">{children}</main>
+      <main className="p-4">{}</main>
     </div>
   );
 };
 
-export default Layout;
+export default Page;
