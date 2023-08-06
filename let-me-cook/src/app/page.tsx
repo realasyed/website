@@ -11,9 +11,7 @@ const Page: React.FC = () => {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <Link href="let-me-cook/src/app/philosophy/philosophy">
-                Philosophy
-              </Link>
+              <Link href="let-me-cook/src/app/philosophy/page">Philosophy</Link>
             </li>
           </ul>
         </nav>
