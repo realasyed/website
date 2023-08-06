@@ -1,2 +1,2 @@
-# coolStuff
-A place for me to host projects and learn.
+# mid-blog
+A place for me to host projects, blog, and learn.
