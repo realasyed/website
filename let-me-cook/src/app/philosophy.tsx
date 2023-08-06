@@ -2,8 +2,8 @@ import React from "react";
 
 const Philosophy: React.FC = () => {
   return (
-    <div>
-      <h2>Philosophy :D</h2>
+    <div className="itworked">
+      <h2>Finally!!!!</h2>
     </div>
   );
 };
