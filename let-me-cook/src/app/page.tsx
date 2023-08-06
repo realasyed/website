@@ -1,19 +1,25 @@
-import React from 'react';
+import React from "react";
 
-const Page = () => {
+const Layout: React.FC = ({ children }) => {
   return (
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-      <div className="max-w-md bg-white p-8 shadow-lg rounded-lg">
-        <h1 className="text-3xl mb-4 text-gray-700">Stupid webite</h1>
-        <p className="text-gray-700">
-          lol
-        </p>
-        <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md">
-          this does nothing
-        </button>
-      </div>
+    <div className="bg-gray-100 min-h-screen">
+      <header className="bg-blue-500 p-4 flex justify-between items-center">
+        <h1 className="text-white text-xl font-bold">Armaan's Cool Website</h1>
+        <nav>
+          <ul className="flex space-x-4">
+            <li>
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/about">About</a>
+            </li>
+            {/* Add more navigation links here */}
+          </ul>
+        </nav>
+      </header>
+      <main className="p-4">{children}</main>
     </div>
   );
 };
 
-export default Page;
+export default Layout;
