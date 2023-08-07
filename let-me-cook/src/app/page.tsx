@@ -6,7 +6,7 @@ const Page: React.FC = () => {
     <div className="bg-black min-h-screen">
       <header className="bg-slate-500 p-4 flex justify-between items-center">
         <h1 className="text-white text-xl font-bold">
-          Armaan's Cool Placeholder
+          Armaan&apos;s Cool Placeholder
         </h1>
         <nav>
           <ul className="flex space-x-4">
