@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Page: React.FC = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <header className="bg-blue-500 p-4 flex justify-between items-center">
+    <div className="bg-black min-h-screen">
+      <header className="bg-slate-500 p-4 flex justify-between items-center">
         <h1 className="text-white text-xl font-bold">
           Armaan's Cool Placeholder
         </h1>
@@ -12,6 +12,9 @@ const Page: React.FC = () => {
           <ul className="flex space-x-4">
             <li>
               <Link href="/philosophy">Philosophy</Link>
+            </li>
+            <li>
+              <Link href="/csds">Computer/Data Science</Link>
             </li>
           </ul>
         </nav>
